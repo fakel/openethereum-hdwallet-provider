@@ -42,7 +42,7 @@ Parameters:
 Some examples can be found below:
 
 ```javascript
-const HDWalletProvider = require("@truffle/hdwallet-provider");
+const HDWalletProvider = require("openethereum-wallet-provider");
 const Web3 = require("web3");
 const mnemonicPhrase = "mountains supernatural bird..."; // 12 word mnemonic
 let provider = new HDWalletProvider({
@@ -120,7 +120,7 @@ private keys as the first parameter. When providing an array, `addressIndex`
 and `numberOfAddresses` are fully supported.
 
 ```javascript
-const HDWalletProvider = require("@truffle/hdwallet-provider");
+const HDWalletProvider = require("openethereum-wallet-provider");
 //load single private key as string
 let provider = new HDWalletProvider("3f841bf589fdf83a521e55d51afddc34fa65351161eead24f064855fc29c9580", "http://localhost:8545");
 
@@ -141,7 +141,7 @@ You can easily use this within a Truffle configuration. For instance:
 
 truffle-config.js
 ```javascript
-const HDWalletProvider = require("@truffle/hdwallet-provider");
+const HDWalletProvider = require("openethereum-wallet-provider");
 
 const mnemonicPhrase = "mountains supernatural bird ...";
 
