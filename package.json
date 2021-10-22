@@ -1,5 +1,5 @@
 {
-  "name": "@f_akel/openethereum-hdwallet-provider",
+  "name": "openethereum-hdwallet-provider",
   "description": "HD Wallet-enabled Web3 provider compatible with openethereum",
   "license": "MIT",
   "author": "Tim Coulter <tim@trufflesuite.com>",
