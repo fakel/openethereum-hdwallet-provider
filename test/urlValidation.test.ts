@@ -18,7 +18,7 @@ describe("HD Wallet Provider Validator", () => {
     try {
       new WalletProvider("", badUrl, 0, 100);
       assert.fail("did not throw!");
-    } catch (e) {
+    } catch (e: any) {
       const expectedMessage = [
         `Malformed provider URL: '${badUrl}'`,
         "Please specify a correct URL, using the http, https, ws, or wss protocol.",
@@ -33,7 +33,7 @@ describe("HD Wallet Provider Validator", () => {
     try {
       new WalletProvider("", badUrl, 0, 100);
       assert.fail("did not throw!");
-    } catch (e) {
+    } catch (e: any) {
       const expectedMessage = [
         `Malformed provider URL: '${badUrl}'`,
         "Please specify a correct URL, using the http, https, ws, or wss protocol.",

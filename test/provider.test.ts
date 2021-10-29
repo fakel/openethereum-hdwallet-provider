@@ -58,7 +58,7 @@ describe("HD Wallet Provider", function () {
           "http://localhost:8545"
         );
         assert.fail("Should throw on invalid mnemonic");
-      } catch (e) {
+      } catch (e: any) {
         assert(e.message.includes("Could not create addresses"));
       }
     });
@@ -217,7 +217,7 @@ describe("HD Wallet Provider", function () {
           providerOrUrl: "http://localhost:8545"
         });
         assert.fail("Should throw on invalid mnemonic");
-      } catch (e) {
+      } catch (e: any) {
         assert(e.message.includes("Mnemonic invalid or undefined"));
       }
     });
