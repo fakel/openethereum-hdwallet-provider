@@ -16,8 +16,8 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "prepare": "yarn build",
-    "test": "yarn build && mocha --exit -r ts-node/register test/**/*.test.ts"
+    "prepare": "npm run build",
+    "test": "npm run build && mocha --exit -r ts-node/register test/**/*.test.ts"
   },
   "types": "dist/index.d.ts",
   "dependencies": {
