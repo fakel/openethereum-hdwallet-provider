@@ -7,15 +7,15 @@ import { Transaction } from "@ethereumjs/tx";
 import Common from "@ethereumjs/common";
 
 // @ts-ignore
-import ProviderEngine from "@trufflesuite/web3-provider-engine";
-import FiltersSubprovider from "@trufflesuite/web3-provider-engine/subproviders/filters";
-import NonceSubProvider from "@trufflesuite/web3-provider-engine/subproviders/nonce-tracker";
-import HookedSubprovider from "@trufflesuite/web3-provider-engine/subproviders/hooked-wallet";
-import ProviderSubprovider from "@trufflesuite/web3-provider-engine/subproviders/provider";
+import ProviderEngine from "@f_akel/web3-provider-engine";
+import FiltersSubprovider from "@f_akel/web3-provider-engine/subproviders/filters";
+import NonceSubProvider from "@f_akel/web3-provider-engine/subproviders/nonce-tracker";
+import HookedSubprovider from "@f_akel/web3-provider-engine/subproviders/hooked-wallet";
+import ProviderSubprovider from "@f_akel/web3-provider-engine/subproviders/provider";
 // @ts-ignore
-import RpcProvider from "@trufflesuite/web3-provider-engine/subproviders/rpc";
+import RpcProvider from "@f_akel/web3-provider-engine/subproviders/rpc";
 // @ts-ignore
-import WebsocketProvider from "@trufflesuite/web3-provider-engine/subproviders/websocket";
+import WebsocketProvider from "@f_akel/web3-provider-engine/subproviders/websocket";
 
 import Url from "url";
 import type {
