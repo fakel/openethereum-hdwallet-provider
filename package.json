@@ -23,7 +23,7 @@
   "dependencies": {
     "@ethereumjs/common": "^2.4.0",
     "@ethereumjs/tx": "^3.3.0",
-    "@f_akel/web3-provider-engine": "github:fakel/provider-engine",
+    "@f_akel/web3-provider-engine": "git+https://github.com/fakel/provider-engine",
     "@types/web3": "1.0.20",
     "eth-sig-util": "^3.0.1",
     "ethereum-cryptography": "^0.1.3",
